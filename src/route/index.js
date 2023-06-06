@@ -14,7 +14,7 @@ const Drawer = createDrawerNavigator()
 const DrawerNavigator=()=>{
     return(
     <Drawer.Navigator drawerContent={(props) => <DrawerContent {...props} />}>
-        <Stack.Screen name="profile" component={Profile} />
+        <Drawer.Screen name="profile" component={Profile} />
   </Drawer.Navigator>
   )
 }
